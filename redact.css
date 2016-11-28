@@ -4,7 +4,7 @@
   margin: 0;
   display: inline-block;
 }
-.redact p {
+.redact div {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -23,9 +23,9 @@
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
-.redact:hover p {
+.redact:hover div {
   opacity: 0;
 }
-.redact p::after {
+.redact div::after {
   content: "Hover to Display";
 }
