@@ -3,23 +3,20 @@
   padding: 0;
   margin: 0;
   display: inline-block;
+  background: black;
 }
-.redact p {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  margin: 0;
-  z-index: 2;
-  background-color: rgba(0, 0, 0, .8);
+.redact img {
+  opacity: 0.2;
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
-.redact:hover p {
-  opacity: 0;
+.redact:hover img {
+  opacity: 1;
 }
-.redact p::after {
+.redact:hover:after {
+  content: "";
+}
+.redact::after {
   content: "Hover to Display";
   position: absolute;
   top: 50%;
