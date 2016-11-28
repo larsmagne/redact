@@ -23,6 +23,6 @@
   font-weight: bold;
   transform: translate(-50%, -50%);
 }
-.redact:hover:after {
+.redact:hover::after {
   content: "";
 }
