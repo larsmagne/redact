@@ -21,6 +21,7 @@
   color: white;
   font-size: 2rem;
   font-weight: bold;
+  font-family: verdana, sans-serif;
   transform: translate(-50%, -50%);
 }
 .redact:hover::after {
