@@ -26,3 +26,6 @@
 .redact:hover p {
   opacity: 0;
 }
+.redact p::after {
+  content: "Hover to Display";
+}
