@@ -7,7 +7,6 @@
 }
 .redact img {
   opacity: 0.1;
-  -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
 }
 .redact:hover img {
